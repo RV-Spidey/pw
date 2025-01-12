@@ -28,26 +28,35 @@
         </svg>
     </button>
     <ul class="sub-menu">
-        <!-- Sub-menu for additional options -->
-        <div>
-            <li>
-                <button onclick="toggleSubSubMenu(this)" class="dropdown-btn">
-                    <span>Sub Menu</span>
-                </button>
-                <ul class="sub-sub-menu">
-                    <li><a href="#" onclick="showContent('sub1')">Sub Option 1</a></li>
-                    <li><a href="#" onclick="showContent('sub2')">Sub Option 2</a></li>
-                </ul>
-            </li>
-        </div>
-        <!-- List of classes -->
-        <div>
-            <li><a href="#" onclick="showVideo('video1-1')">Class 1</a></li>
-            <li><a href="#" onclick="showVideo('video2-1')">Class 2</a></li>
-            <!-- Add more classes as needed -->
-        </div>
+        <!-- First submenu -->
+        <li>
+            <button onclick="toggleSubSubMenu(this)" class="dropdown-btn">
+                <span>Sub Menu 1</span>
+            </button>
+            <ul class="sub-sub-menu">
+                <li><a href="#" onclick="showVideo('video1-1')">Class 1</a></li>
+                <li><a href="#" onclick="showVideo('video2-1')">Class 2</a></li>
+                <li><a href="#" onclick="showVideo('video3-1')">Class 3</a></li>
+                <li><a href="#" onclick="showVideo('video4-1')">Class 4</a></li>
+                <li><a href="#" onclick="showVideo('video5-1')">Class 5</a></li>
+            </ul>
+        </li>
+        <!-- Second submenu -->
+        <li>
+            <button onclick="toggleSubSubMenu(this)" class="dropdown-btn">
+                <span>Sub Menu 2</span>
+            </button>
+            <ul class="sub-sub-menu">
+                <li><a href="#" onclick="showVideo('video6-1')">Class 6</a></li>
+                <li><a href="#" onclick="showVideo('video7-1')">Class 7</a></li>
+                <li><a href="#" onclick="showVideo('video8-1')">Class 8</a></li>
+                <li><a href="#" onclick="showVideo('video9-1')">Class 9</a></li>
+                <li><a href="#" onclick="showVideo('video10-1')">Class 10</a></li>
+            </ul>
+        </li>
     </ul>
 </li>
+
 
       <li>
         <button onclick=toggleSubMenu(this) class="dropdown-btn">
